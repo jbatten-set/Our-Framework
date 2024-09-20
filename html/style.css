@@ -105,11 +105,13 @@
 	color:rgba(0, 0, 0, 1);
 	width:612px;
 	height:58px;
+	display: flex;
 	margin:0 auto;
 	font-family:Inter;
 	text-align:center;
 	font-size:40px;
 	letter-spacing:0;
+	justify-content: space-around;
 }
 
 

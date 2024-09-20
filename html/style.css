@@ -4,8 +4,6 @@
 	background-color:rgba(255, 255, 255, 1);
 	width: 100%;
 	height: 100%;
-	justify-content: space-betweeen;
-	display: flex;
         
         
 }
@@ -13,10 +11,12 @@
 	border-radius:500px;
 	width:232px;
 	height:232px;
+	display: flex;
 	float: left;
 	background-image:url(Images/Vision.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	justify-content: space-around;
 }
 
 
@@ -35,14 +35,16 @@
 	text-align:center;
 	font-size:36px;
 	letter-spacing:0;
+	display: flex;
 	float: left;
+	justify-content: space-around;
 }
 .middle_title { 
 	width:280px;
 	height:84.70587921142578px;
-	position:absolute;
-	left:464px;
-	top:166px;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
 }
 .middle_title_span { 
 	color:rgba(0, 0, 0, 1);
@@ -53,6 +55,8 @@
 	font-size:36px;
 	letter-spacing:0;
         margin:0 auto;
+	display: flex;
+	justify-content: space-around;
 }
 .right_title { 
 	width:301px;
@@ -70,25 +74,31 @@
 	font-size:36px;
 	letter-spacing:0;
 	float: right;
+	display: flex;
+	justify-content: space-around;
 }
 .Pillars { 
 	border-radius:500px;
 	width:232px;
 	height:232px;
-	float: right;
+	display: flex;
+	margin:0 auto;
 	background-image:url(Images/Mission.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	justify-content: space-around;
 }
 
 .Mission { 
 	border-radius:500px;
 	width:232px;
 	height:232px;
-	margin:0 auto;
+	display: flex;
+	float: right;
 	background-image:url(Images/Pillars.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	justify-content: space-around;
 }
 
 .middle_header { 

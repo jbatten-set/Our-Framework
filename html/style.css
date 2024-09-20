@@ -1,5 +1,44 @@
 /* Framework Main */
+ body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
 
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .main-title {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .sub-titles {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+            margin-bottom: 30px;
+        }
+
+        .sub-titles h2 {
+            font-size: 1.5em;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
+        }
+
+        .images img {
+          border-radius:500px;
+	width:232px;
+	height:232px;
+        }
 .main { 
 	background-color:rgba(255, 255, 255, 1);
 	width: 100%;
@@ -15,12 +54,7 @@
 
 }
 
-.images {
-        width: 232px;
-	height: 232px;
-	border-radius:500px;
-	display: inline-block;
-}
+
 .Vision { 
 	border-radius:500px;
 	width:232px;

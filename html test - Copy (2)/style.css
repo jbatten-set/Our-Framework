@@ -1,0 +1,739 @@
+/* Framework Main */
+
+.main { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1280px;
+	height:720px;
+	position:absolute;
+}
+.Vision { 
+	border-radius:500px;
+	width:232px;
+	height:232px;
+	position:absolute;
+	left:93px;
+	top:134.64706420898438px;
+	background-image:url(Images/Vision.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+
+.left_title { 
+	width:274px;
+	height:94px;
+	position:absolute;
+	left:72px;
+	top:383.6470642089844px;
+}
+.left_title_span { 
+	color:rgba(0, 0, 0, 1);
+	width:320.0818176269531px;
+	height:94px;
+	position:absolute;
+	left:-22.418182373046875px;
+	top:1.3239437341690063px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.middle_title { 
+	width:280px;
+	height:84.70587921142578px;
+	position:absolute;
+	left:464px;
+	top:166px;
+}
+.middle_title_span { 
+	color:rgba(0, 0, 0, 1);
+	width:327.0909118652344px;
+	height:84.70587921142578px;
+	position:absolute;
+	left:-22.90909194946289px;
+	top:1.1930406093597412px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.right_title { 
+	width:301px;
+	height:100px;
+	position:absolute;
+	left:886px;
+	top:377.6470642089844px;
+}
+.right_title_span { 
+	color:rgba(0, 0, 0, 1);
+	width:351.62274169921875px;
+	height:100px;
+	position:absolute;
+	left:-24.627273559570312px;
+	top:1.408450722694397px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.Pillars { 
+	border-radius:500px;
+	width:232px;
+	height:232px;
+	position:absolute;
+	left:921px;
+	top:134.64706420898438px;
+	background-image:url(Images/Mission.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Mission { 
+	border-radius:500px;
+	width:232px;
+	height:232px;
+	position:absolute;
+	left:493px;
+	top:214.64706420898438px;
+	background-image:url(Images/Pillars.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.middle_header { 
+	color:rgba(0, 0, 0, 1);
+	width:612px;
+	height:58px;
+	position:absolute;
+	left:334px;
+	top:33px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+
+.visionframe { 
+	background-color:rgba(0, 0, 0, 1);
+	width:1280px;
+	height:350px;
+	position:absolute;
+	left:-10px;
+	top:0px;
+}
+.p_box { 
+	width:949px;
+	height:186px;
+	position:absolute;
+	left:155px;
+	top:82px;
+}
+.p_text { 
+	color:rgba(255, 255, 255, 1);
+	width:949px;
+	height:186px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.back_box { 
+	width:411px;
+	height:59px;
+	position:absolute;
+	left:424px;
+	top:280px;
+}
+.back_text { 
+	color:rgba(255, 255, 255, 1);
+	width:411px;
+	height:59px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.h1_text { 
+	color:rgba(255, 255, 255, 1);
+	width:450px;
+	height:54px;
+	position:absolute;
+	left:437px;
+	top:16px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+/* Our Mission */
+
+.mission_frame { 
+	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
+	width:1280px;
+	height:350px;
+	position:absolute;
+	left:-10px;
+	top:0px;
+}
+
+/* Pillar Examples */
+
+.left_back_box { 
+	width:103px;
+	height:45px;
+	position:absolute;
+	left:1138px;
+	top:175px;
+}
+.left_back_text { 
+	color:rgba(0, 0, 0, 1);
+	width:103px;
+	height:45px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.right_back_box { 
+	width:103px;
+	height:45px;
+	position:absolute;
+	left:39px;
+	top:168px;
+}
+.right_back_text { 
+	color:rgba(0, 0, 0, 1);
+	width:103px;
+	height:45px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.examples_box { 
+	width:918px;
+	height:321px;
+	position:absolute;
+	left:181px;
+	top:48px;
+}
+.video_production_box { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(130.28414100408554, 134.58333671092987, 130.45604377985, 1);
+	width:432px;
+	height:299px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.photography_box { 
+	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
+	width:243px;
+	height:151px;
+	position:absolute;
+	left:432px;
+	top:0px;
+}
+
+.digital_marketing_box { 
+	background-color:rgba(0, 0, 0, 1);
+	width:243px;
+	height:151px;
+	position:absolute;
+	left:675px;
+	top:0px;
+}
+
+.graphic_design_box { 
+	background-color:rgba(0, 0, 0, 1);
+	width:243px;
+	height:148px;
+	position:absolute;
+	left:432px;
+	top:151px;
+}
+
+.content_creation_box { 
+	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
+	width:243px;
+	height:148px;
+	position:absolute;
+	left:675px;
+	top:151px;
+}
+
+
+
+.h1_video { 
+	color:rgba(255, 255, 255, 1);
+	width:330.1094665527344px;
+	height:76.82608795166016px;
+	position:absolute;
+	left:51px;
+	top:19px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.h1_photography { 
+	color:rgba(255, 255, 255, 1);
+	width:164px;
+	height:58px;
+	position:absolute;
+	left:468px;
+	top:10px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.h1_graphic_design { 
+	color:rgba(255, 255, 255, 1);
+	width:193px;
+	height:60px;
+	position:absolute;
+	left:455px;
+	top:157px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.h1_digital_marketing { 
+	color:rgba(255, 255, 255, 1);
+	width:223px;
+	height:58px;
+	position:absolute;
+	left:685px;
+	top:11px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.h1_content_creation { 
+	color:rgba(255, 255, 255, 1);
+	width:220px;
+	height:58px;
+	position:absolute;
+	left:687px;
+	top:159px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.video_image { 
+	width:340px;
+	height:204px;
+	position:absolute;
+	left:46px;
+	top:91px;
+	background-image:url(Images/video_production.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.photography_image { 
+	width:116px;
+	height:107px;
+	position:absolute;
+	left:498px;
+	top:54px;
+	background-image:url(Images/photography.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.graphic_design_image { 
+	width:127px;
+	height:110px;
+	position:absolute;
+	left:490px;
+	top:194px;
+	background-image:url(Images/graphic_design.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.digital_marketing_image { 
+	width:67px;
+	height:67px;
+	position:absolute;
+	left:763px;
+	top:76px;
+	background-image:url(Images/digital_marketing.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.content_creation_image { 
+	width:69px;
+	height:69px;
+	position:absolute;
+	left:761px;
+	top:223px;
+	background-image:url(Images/content_creation.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.title_pillars { 
+	color:rgba(0, 0, 0, 1);
+	width:612px;
+	height:58px;
+	position:absolute;
+	left:349px;
+	top:-10px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+/* Content Creation Page */
+
+.audio_box { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:205px;
+	height:205px;
+	position:absolute;
+	left:143px;
+	top:133px;
+}
+
+.sharepoint_box { 
+	border-radius:500px;
+	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
+	width:205px;
+	height:205px;
+	position:absolute;
+	left:311px;
+	top:365px;
+}
+
+.e_learning_box { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:206px;
+	height:205px;
+	position:absolute;
+	left:521px;
+	top:133px;
+}
+
+.virtual_tour_box { 
+	border-radius:500px;
+	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
+	width:205px;
+	height:205px;
+	position:absolute;
+	left:727px;
+	top:365px;
+}
+
+.script_box { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:205px;
+	height:205px;
+	position:absolute;
+	left:932px;
+	top:133px;
+}
+
+
+.audio_text { 
+	color:rgba(255, 255, 255, 1);
+	width:171px;
+	height:109px;
+	position:absolute;
+	left:157px;
+	top:192px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.sharepoint_text { 
+	color:rgba(255, 255, 255, 1);
+	width:171px;
+	height:109px;
+	position:absolute;
+	left:328px;
+	top:413px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e_learning_text { 
+	color:rgba(255, 255, 255, 1);
+	width:166px;
+	height:107px;
+	position:absolute;
+	left:539px;
+	top:192px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.virtual_tour_text { 
+	color:rgba(255, 255, 255, 1);
+	width:208px;
+	height:64px;
+	position:absolute;
+	left:724px;
+	top:445px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.script_text { 
+	color:rgba(255, 255, 255, 1);
+	width:174px;
+	height:84px;
+	position:absolute;
+	left:948px;
+	top:194px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.pillar_title { 
+	color:rgba(0, 0, 0, 1);
+	width:806px;
+	height:60px;
+	position:absolute;
+	left:237px;
+	top:46px;
+	font-family:Inter;
+	text-align:center;
+	font-size:48px;
+	letter-spacing:0;
+}
+.pillar_right_back { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.20000000298023224);
+	color:rgba(0, 0, 0, 1);
+	width:196px;
+	height:93px;
+	position:absolute;
+	left:1027px;
+	top:438px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+.pillar_left_back { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.20000000298023224);
+	color:rgba(0, 0, 0, 1);
+	width:196px;
+	height:93px;
+	position:absolute;
+	left:56px;
+	top:439px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+/* Digital Marketing Page */
+
+.qr_codes_text { 
+	color:rgba(255, 255, 255, 1);
+	width:171px;
+	height:109px;
+	position:absolute;
+	left:328px;
+	top:441px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+
+.interactive_infographics_text { 
+	color:rgba(255, 255, 255, 1);
+	width:208px;
+	height:64px;
+	position:absolute;
+	left:724px;
+	top:426px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+
+.flyers_text { 
+	color:rgba(255, 255, 255, 1);
+	width:171px;
+	height:109px;
+	position:absolute;
+	left:157px;
+	top:212px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.image_retouching_text { 
+	color:rgba(255, 255, 255, 1);
+	width:171px;
+	height:109px;
+	position:absolute;
+	left:328px;
+	top:422px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.infographics_text { 
+	color:rgba(255, 255, 255, 1);
+	width:189px;
+	height:88px;
+	position:absolute;
+	left:940px;
+	top:220px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.headshots_text { 
+	color:rgba(255, 255, 255, 1);
+	width:166px;
+	height:107px;
+	position:absolute;
+	left:541px;
+	top:204px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.drone_text { 
+	color:rgba(255, 255, 255, 1);
+	width:208px;
+	height:64px;
+	position:absolute;
+	left:725px;
+	top:420px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.event_highlights_text { 
+	color:rgba(255, 255, 255, 1);
+	width:166px;
+	height:107px;
+	position:absolute;
+	left:543px;
+	top:196px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+.animations_text { 
+	color:rgba(255, 255, 255, 1);
+	width:174px;
+	height:84px;
+	position:absolute;
+	left:948px;
+	top:216px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+
+
+/* pillar examples sub pages */
+
+.main_pillars_descriptions { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1280px;
+	height:350px;
+	position:absolute;
+}
+.black_text_frame { 
+	background-color:rgba(0, 0, 0, 1);
+	width:1280px;
+	height:350px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.h1_pillar_examples { 
+	color:rgba(255, 255, 255, 1);
+	width:954px;
+	height:182px;
+	position:absolute;
+	left:163px;
+	top:130px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+.back_pillar_examples { 
+	color:rgba(255, 255, 255, 1);
+	width:340px;
+	height:48px;
+	position:absolute;
+	left:470px;
+	top:288px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.e3337_293 { 
+	width:472px;
+	height:67px;
+	position:absolute;
+	left:404px;
+	top:14px;
+}
+.e3337_294 { 
+	color:rgba(255, 255, 255, 1);
+	width:472px;
+	height:67px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}

@@ -1,1 +1,0 @@
-# SET-Multimedia-Team

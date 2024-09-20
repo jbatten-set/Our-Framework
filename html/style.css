@@ -37,9 +37,10 @@
 
 
 .left_title { 
-	width:274px;
-	height:94px;
+	width: auto;
+	height: auto;
 	display: inline-block;
+	font-size:36px;
 }
 .left_title_span { 
 	color:rgba(0, 0, 0, 1);

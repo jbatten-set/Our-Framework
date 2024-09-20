@@ -13,6 +13,13 @@
 	text-align: center;
 
 }
+
+.images {
+        width: 232px;
+	height: 232px;
+	border-radius:500px;
+	display: inline-block;
+}
 .Vision { 
 	border-radius:500px;
 	width:232px;

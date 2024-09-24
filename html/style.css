@@ -280,7 +280,17 @@
 	display: flex;
         justify-content: start;
 
-
+.photography_box h1 {
+color:rgba(255, 255, 255, 1);
+	width:100%;
+	height:auto;
+	display: flex;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+	justify-content: space-around;
+}
 
 .h1_video { 
 	color:rgba(255, 255, 255, 1);

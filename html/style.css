@@ -220,6 +220,17 @@
 	font-size:40px;
 	letter-spacing:0;
 }
+.h1_text_black { 
+	color:rgba(0, 0, 0, 1);
+	width: 100%;
+	height: auto;
+	display: flex;
+	font-family:Inter;
+	text-align:center;
+	justify-content: space-around; 
+	font-size:40px;
+	letter-spacing:0;
+}
 
 /* Our Mission */
 

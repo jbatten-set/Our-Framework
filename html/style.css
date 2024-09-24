@@ -244,9 +244,15 @@
 	background-color:rgba(130.28414100408554, 134.58333671092987, 130.45604377985, 1);
 	width:40%;
 	height:auto;
+	text-align:center;
 	display: flex;
         justify-content: space-around;
 
+}
+.video_production_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	font-size:36px;
 }
 
 .photography_box { 
@@ -280,13 +286,7 @@
 	display: flex;
         justify-content: start;
 
-.video_production_box h1 {
-	color:rgba(255, 255, 255, 1);
-	font-family:Inter;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-}
+
 
 .h1_video { 
 	color:rgba(255, 255, 255, 1);

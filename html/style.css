@@ -172,7 +172,6 @@
 	background-color:rgba(0, 0, 0, 1);
 	width: 80%;
 	height: auto;
-	display: flex;
 	justify-content: space-around;
 	text-align: center;
 }
@@ -217,7 +216,7 @@
 	display: flex;
 	font-family:Inter;
 	text-align:center;
-	margin: 0 auto; 
+	justify-content: space-around; 
 	font-size:40px;
 	letter-spacing:0;
 }

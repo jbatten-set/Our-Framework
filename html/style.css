@@ -238,14 +238,14 @@
 	width: 90%;
 	height: auto;
 	display: flex;
-	
+	justify-content: start;
 }
 .video_production_box { 
 	background-color:rgba(130.28414100408554, 134.58333671092987, 130.45604377985, 1);
 	width:40%;
 	height:auto;
 	display: flex;
-        justify-content: start;
+        justify-content: space-around;
 
 }
 

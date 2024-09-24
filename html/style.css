@@ -170,8 +170,9 @@
 
 .visionframe { 
 	background-color:rgba(0, 0, 0, 1);
-	width: 100%;
+	width: 60%;
 	height: auto;
+	display: flex;
 	justify-content: space-around;
 	text-align: center;
 }
@@ -186,6 +187,7 @@
 	color:rgba(255, 255, 255, 1);
 	width: 100%;
 	height: auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	font-size:36px;
@@ -212,6 +214,7 @@
 	color:rgba(255, 255, 255, 1);
 	width: 100%;
 	height: auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	margin: 0 auto; 

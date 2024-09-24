@@ -9,7 +9,6 @@
 
         .container {
             text-align: center;
-            margin-top: 50px;
 		width: 100%;
 		height: auto;
         }
@@ -170,7 +169,7 @@
 
 .visionframe { 
 	background-color:rgba(0, 0, 0, 1);
-	width: 80%;
+	width: 85%;
 	height: auto;
 	justify-content: space-around;
 	text-align: center;
@@ -206,6 +205,7 @@
 	font-family:Inter;
 	text-align:center;
 	font-size:36px;
+	margin-top: 50px;
 	justify-content: center;
 	letter-spacing:0;
 }

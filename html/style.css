@@ -233,214 +233,161 @@
 
 /* Pillar Examples */
 
-.left_back_box { 
-	width:103px;
-	height:45px;
-	position:absolute;
-	left:1138px;
-	top:175px;
-}
-.left_back_text { 
-	color:rgba(0, 0, 0, 1);
-	width:103px;
-	height:45px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:Inter;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-}
-.right_back_box { 
-	width:103px;
-	height:45px;
-	position:absolute;
-	left:39px;
-	top:168px;
-}
-.right_back_text { 
-	color:rgba(0, 0, 0, 1);
-	width:103px;
-	height:45px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-family:Inter;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-}
+
 .examples_box { 
-	width: 100%;
+	width: 90%;
 	height: auto;
+	display: flex;
 	
 }
 .video_production_box { 
-	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 	background-color:rgba(130.28414100408554, 134.58333671092987, 130.45604377985, 1);
-	width:432px;
-	height:299px;
-	position:absolute;
-	left:0px;
-	top:0px;
+	width:40%;
+	height:auto;
+	display: flex;
+        justify-content: start;
+
 }
 
 .photography_box { 
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
-	width:243px;
-	height:151px;
-	position:absolute;
-	left:432px;
-	top:0px;
+	width:20%;
+	height:20%;
+	display: flex;
+        justify-content: start;
 }
 
 .digital_marketing_box { 
 	background-color:rgba(0, 0, 0, 1);
-	width:243px;
-	height:151px;
-	position:absolute;
-	left:675px;
-	top:0px;
+	width:20%;
+	height:20%;
+	display: flex;
+        justify-content: start;
 }
 
 .graphic_design_box { 
 	background-color:rgba(0, 0, 0, 1);
-	width:243px;
-	height:148px;
-	position:absolute;
-	left:432px;
-	top:151px;
+	width:20%;
+	height:20%;
+	display: flex;
+        justify-content: start;
 }
 
 .content_creation_box { 
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
-	width:243px;
-	height:148px;
-	position:absolute;
-	left:675px;
-	top:151px;
-}
+	width:20%;
+	height:20%;
+	display: flex;
+        justify-content: start;
 
 
 
 .h1_video { 
 	color:rgba(255, 255, 255, 1);
-	width:330.1094665527344px;
-	height:76.82608795166016px;
-	position:absolute;
-	left:51px;
-	top:19px;
+	width:100%;
+	height:auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	font-size:36px;
 	letter-spacing:0;
+	justify-content: space-around;
 }
 .h1_photography { 
 	color:rgba(255, 255, 255, 1);
-	width:164px;
-	height:58px;
-	position:absolute;
-	left:468px;
-	top:10px;
+	width:100%;
+	height:auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
+	justify-content: space-around;
 }
 .h1_graphic_design { 
 	color:rgba(255, 255, 255, 1);
-	width:193px;
-	height:60px;
-	position:absolute;
-	left:455px;
-	top:157px;
+	width:100%;
+	height:auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
+	justify-content: space-around;
 }
 .h1_digital_marketing { 
 	color:rgba(255, 255, 255, 1);
-	width:223px;
-	height:58px;
-	position:absolute;
-	left:685px;
-	top:11px;
+	width:100%;
+	height:auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
+	justify-content: space-around;
 }
 .h1_content_creation { 
 	color:rgba(255, 255, 255, 1);
-	width:220px;
-	height:58px;
-	position:absolute;
-	left:687px;
-	top:159px;
+	width:100%;
+	height:auto;
+	display: flex;
 	font-family:Inter;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
+	justify-content: space-around;
 }
 .video_image { 
-	width:340px;
-	height:204px;
-	position:absolute;
-	left:46px;
-	top:91px;
+	width:50%;
+	height:auto;
+	display: flex;
+	justify-content: space-around;
 	background-image:url(Images/video_production.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 .photography_image { 
-	width:116px;
-	height:107px;
-	position:absolute;
-	left:498px;
-	top:54px;
+	width:50%;
+	height:auto;
+	display: flex;
+	justify-content: space-around;
 	background-image:url(Images/photography.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 .graphic_design_image { 
-	width:127px;
-	height:110px;
-	position:absolute;
-	left:490px;
-	top:194px;
+	width:50%;
+	height:auto;
+	display: flex;
+	justify-content: space-around;
 	background-image:url(Images/graphic_design.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 .digital_marketing_image { 
-	width:67px;
-	height:67px;
-	position:absolute;
-	left:763px;
-	top:76px;
+	width:50%;
+	height:auto;
+	display: flex;
+	justify-content: space-around;
 	background-image:url(Images/digital_marketing.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 .content_creation_image { 
-	width:69px;
-	height:69px;
-	position:absolute;
-	left:761px;
-	top:223px;
+	width:50%;
+	height:auto;
+	display: flex;
+	justify-content: space-around;
 	background-image:url(Images/content_creation.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 .title_pillars { 
 	color:rgba(0, 0, 0, 1);
-	width:612px;
-	height:58px;
-	position:absolute;
-	left:349px;
-	top:-10px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
 	font-family:Inter;
 	text-align:center;
 	font-size:40px;

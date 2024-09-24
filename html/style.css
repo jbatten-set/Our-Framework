@@ -246,6 +246,7 @@
 	height:auto;
 	text-align:center;
 	display: flex;
+	flex-direction: column;
         justify-content: space-around;
 
 }
@@ -260,7 +261,13 @@
 	width:20%;
 	height:20%;
 	display: flex;
+	flex-direction: column;
         justify-content: start;
+}
+.photography_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	font-size:24px;
 }
 
 .digital_marketing_box { 
@@ -268,7 +275,13 @@
 	width:20%;
 	height:20%;
 	display: flex;
+	flex-direction: column;
         justify-content: start;
+}
+.digital_marketing_box box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	font-size:24px;
 }
 
 .graphic_design_box { 
@@ -276,7 +289,13 @@
 	width:20%;
 	height:20%;
 	display: flex;
+	flex-direction: column;
         justify-content: start;
+}
+.graphic_design_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	font-size:24px;
 }
 
 .content_creation_box { 
@@ -284,9 +303,15 @@
 	width:20%;
 	height:20%;
 	display: flex;
+	flex-direction: column;
         justify-content: start;
 
-
+}
+.content_creation_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	font-size:24px;
+}
 
 .h1_video { 
 	color:rgba(255, 255, 255, 1);

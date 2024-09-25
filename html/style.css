@@ -481,7 +481,9 @@
         grid-column-end: span 1;
  	grid-row-start: 1;
  	grid-row-end: span 1;
+	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .audio_box h2 {
@@ -498,7 +500,9 @@
         grid-column-end: span 1;
  	grid-row-start: 2;
  	grid-row-end: span 1;
+	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .sharepoint_box h2 {
 	color:rgba(255, 255, 255, 1);
@@ -514,7 +518,9 @@
         grid-column-end: span 1;
  	grid-row-start: 1;
  	grid-row-end: span 1;
+	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .e_learning_box h2 {
 	color:rgba(255, 255, 255, 1);
@@ -530,7 +536,9 @@
         grid-column-end: span 1;
  	grid-row-start: 2;
  	grid-row-end: span 1;
+	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .virtual_tour_box h2 {
 	color:rgba(255, 255, 255, 1);
@@ -546,7 +554,9 @@
         grid-column-end: span 1;
  	grid-row-start: 1;
  	grid-row-end: span 1;
+	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .script_box h2 {
 	color:rgba(255, 255, 255, 1);

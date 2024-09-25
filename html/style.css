@@ -232,6 +232,20 @@
 	letter-spacing:0;
 	margin: 0 auto;
 }
+.back_text_grid { 
+	color:rgba(0, 0, 0, 1);
+	width: 100%;
+	height: auto;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	grid-column-start: 3;
+        grid-column-end: span 1;
+ 	grid-row-start: 2;
+ 	grid-row-end: span 1;
+	justify-content: center;
+	letter-spacing:0;
+}
 .h1_text { 
 	color:rgba(255, 255, 255, 1);
 	width: 100%;
@@ -287,7 +301,7 @@
  	grid-row-end: span 2;
 
 }
-.video_production_box h1 {
+.video_production_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:36px;
@@ -300,7 +314,7 @@
  	grid-row-start: 1;
  	grid-row-end: span 1;
 }
-.photography_box h1 {
+.photography_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -313,7 +327,7 @@
  	grid-row-start: 1;
  	grid-row-end: span 1;
 }
-.digital_marketing_box h1 {
+.digital_marketing_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -326,7 +340,7 @@
  	grid-row-start: 2;
  	grid-row-end: span 1;
 }
-.graphic_design_box h1 {
+.graphic_design_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -340,7 +354,7 @@
  	grid-row-end: span 1;
 
 }
-.content_creation_box h1 {
+.content_creation_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;

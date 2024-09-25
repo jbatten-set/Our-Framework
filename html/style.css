@@ -248,17 +248,20 @@
 .examples_box { 
 	width: 90%;
 	height: auto;
-	display: flex;
-	justify-content: start;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-template-rows: 50% 50%;
+	
 }
 .video_production_box { 
 	background-color:rgba(130.28414100408554, 134.58333671092987, 130.45604377985, 1);
-	width:40%;
+	width:auto;
 	height:auto;
 	text-align:center;
-	display: flex;
-	flex-direction: column;
-        justify-content: space-around;
+	grid-column-start: 1;
+        grid-column-end: span 2;
+ 	grid-row-start: 1;
+ 	grid-row-end: span 2;
 
 }
 .video_production_box h1 {
@@ -269,11 +272,10 @@
 
 .photography_box { 
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
-	width:20%;
-	height:20%;
-	display: flex;
-	flex-direction: column;
-        justify-content: start;
+	grid-column-start: 3;
+        grid-column-end: span 1;
+ 	grid-row-start: 1;
+ 	grid-row-end: span 1;
 }
 .photography_box h1 {
 	color:rgba(255, 255, 255, 1);
@@ -283,11 +285,10 @@
 
 .digital_marketing_box { 
 	background-color:rgba(0, 0, 0, 1);
-	width:20%;
-	height:20%;
-	display: flex;
-	flex-direction: column;
-        justify-content: start;
+	grid-column-start: 4;
+        grid-column-end: span 1;
+ 	grid-row-start: 1;
+ 	grid-row-end: span 1;
 }
 .digital_marketing_box h1 {
 	color:rgba(255, 255, 255, 1);
@@ -297,11 +298,10 @@
 
 .graphic_design_box { 
 	background-color:rgba(0, 0, 0, 1);
-	width:20%;
-	height:20%;
-	display: flex;
-	flex-direction: column;
-        justify-content: start;
+	grid-column-start: 3;
+        grid-column-end: span 1;
+ 	grid-row-start: 2;
+ 	grid-row-end: span 1;
 }
 .graphic_design_box h1 {
 	color:rgba(255, 255, 255, 1);
@@ -311,11 +311,10 @@
 
 .content_creation_box { 
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
-	width:20%;
-	height:20%;
-	display: flex;
-	flex-direction: column;
-        justify-content: start;
+	grid-column-start: 4;
+        grid-column-end: span 1;
+ 	grid-row-start: 2;
+ 	grid-row-end: span 1;
 
 }
 .content_creation_box h1 {

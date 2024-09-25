@@ -217,6 +217,17 @@
 	justify-content: center;
 	letter-spacing:0;
 }
+.back_text_black { 
+	color:rgba(0, 0, 0, 1);
+	width: 100%;
+	height: auto;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	justify-content: center;
+	letter-spacing:0;
+	margin: 0 auto;
+}
 .h1_text { 
 	color:rgba(255, 255, 255, 1);
 	width: 100%;

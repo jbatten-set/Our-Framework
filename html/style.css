@@ -50,8 +50,12 @@
         }
 .main { 
 	background-color:rgba(255, 255, 255, 1);
-	width: 100%;
 	height: 100%;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 50% 50%;
+	margin: 0 auto;
+	
         
         
 }
@@ -459,61 +463,58 @@
 .audio_box { 
 	border-radius:500px;
 	background-color:rgba(0, 0, 0, 1);
-	width:205px;
-	height:205px;
-	position:absolute;
-	left:143px;
-	top:133px;
+	grid-column-start: 1;
+        grid-column-end: span 1;
+ 	grid-row-start: 1;
+ 	grid-row-end: span 1;
+	justify-content: center;
 }
 
 .sharepoint_box { 
 	border-radius:500px;
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
-	width:205px;
-	height:205px;
-	position:absolute;
-	left:311px;
-	top:365px;
+	grid-column-start: 2;
+        grid-column-end: span 1;
+ 	grid-row-start: 2;
+ 	grid-row-end: span 1;
+	justify-content: center;
 }
 
 .e_learning_box { 
 	border-radius:500px;
 	background-color:rgba(0, 0, 0, 1);
-	width:206px;
-	height:205px;
-	position:absolute;
-	left:521px;
-	top:133px;
+	grid-column-start: 3;
+        grid-column-end: span 1;
+ 	grid-row-start: 1;
+ 	grid-row-end: span 1;
+	justify-content: center;
 }
 
 .virtual_tour_box { 
 	border-radius:500px;
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
-	width:205px;
-	height:205px;
-	position:absolute;
-	left:727px;
-	top:365px;
+	grid-column-start: 4;
+        grid-column-end: span 1;
+ 	grid-row-start: 2;
+ 	grid-row-end: span 1;
+	justify-content: center;
 }
 
 .script_box { 
 	border-radius:500px;
 	background-color:rgba(0, 0, 0, 1);
-	width:205px;
-	height:205px;
-	position:absolute;
-	left:932px;
-	top:133px;
+	grid-column-start: 5;
+        grid-column-end: span 1;
+ 	grid-row-start: 1;
+ 	grid-row-end: span 1;
+	justify-content: center;
 }
 
 
 .audio_text { 
 	color:rgba(255, 255, 255, 1);
-	width:171px;
-	height:109px;
-	position:absolute;
-	left:157px;
-	top:192px;
+	width:100%;
+	height:auto;
 	font-family:Inter;
 	text-align:center;
 	font-size:32px;
@@ -521,11 +522,8 @@
 }
 .sharepoint_text { 
 	color:rgba(255, 255, 255, 1);
-	width:171px;
-	height:109px;
-	position:absolute;
-	left:328px;
-	top:413px;
+	width:100%;
+	height:auto;
 	font-family:Inter;
 	text-align:center;
 	font-size:32px;
@@ -533,11 +531,8 @@
 }
 .e_learning_text { 
 	color:rgba(255, 255, 255, 1);
-	width:166px;
-	height:107px;
-	position:absolute;
-	left:539px;
-	top:192px;
+	width:100%;
+	height:auto;
 	font-family:Inter;
 	text-align:center;
 	font-size:32px;
@@ -545,11 +540,8 @@
 }
 .virtual_tour_text { 
 	color:rgba(255, 255, 255, 1);
-	width:208px;
-	height:64px;
-	position:absolute;
-	left:724px;
-	top:445px;
+	width:100%;
+	height:auto;
 	font-family:Inter;
 	text-align:center;
 	font-size:32px;
@@ -557,11 +549,8 @@
 }
 .script_text { 
 	color:rgba(255, 255, 255, 1);
-	width:174px;
-	height:84px;
-	position:absolute;
-	left:948px;
-	top:194px;
+	width:100%;
+	height:auto;
 	font-family:Inter;
 	text-align:center;
 	font-size:32px;

@@ -470,6 +470,13 @@
 	justify-content: center;
 }
 
+.audio_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+}
+
 .sharepoint_box { 
 	border-radius:500px;
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
@@ -478,6 +485,12 @@
  	grid-row-start: 2;
  	grid-row-end: span 1;
 	justify-content: center;
+}
+.sharepoint_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
 }
 
 .e_learning_box { 
@@ -489,6 +502,12 @@
  	grid-row-end: span 1;
 	justify-content: center;
 }
+.e_learning_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+}
 
 .virtual_tour_box { 
 	border-radius:500px;
@@ -499,6 +518,12 @@
  	grid-row-end: span 1;
 	justify-content: center;
 }
+.virtual_tour_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+}
 
 .script_box { 
 	border-radius:500px;
@@ -508,6 +533,12 @@
  	grid-row-start: 1;
  	grid-row-end: span 1;
 	justify-content: center;
+}
+.script_box h1 {
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
 }
 
 

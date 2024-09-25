@@ -301,7 +301,7 @@
  	grid-row-end: span 2;
 
 }
-.video_production_box h2 {
+.video_production_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:36px;
@@ -314,7 +314,7 @@
  	grid-row-start: 1;
  	grid-row-end: span 1;
 }
-.photography_box h2 {
+.photography_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -327,7 +327,7 @@
  	grid-row-start: 1;
  	grid-row-end: span 1;
 }
-.digital_marketing_box h2 {
+.digital_marketing_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -340,7 +340,7 @@
  	grid-row-start: 2;
  	grid-row-end: span 1;
 }
-.graphic_design_box h2 {
+.graphic_design_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -354,7 +354,7 @@
  	grid-row-end: span 1;
 
 }
-.content_creation_box h2 {
+.content_creation_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	font-size:24px;
@@ -484,7 +484,7 @@
 	justify-content: center;
 }
 
-.audio_box h1 {
+.audio_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
@@ -500,7 +500,7 @@
  	grid-row-end: span 1;
 	justify-content: center;
 }
-.sharepoint_box h1 {
+.sharepoint_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
@@ -516,7 +516,7 @@
  	grid-row-end: span 1;
 	justify-content: center;
 }
-.e_learning_box h1 {
+.e_learning_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
@@ -532,7 +532,7 @@
  	grid-row-end: span 1;
 	justify-content: center;
 }
-.virtual_tour_box h1 {
+.virtual_tour_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
@@ -548,7 +548,7 @@
  	grid-row-end: span 1;
 	justify-content: center;
 }
-.script_box h1 {
+.script_box h2 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;

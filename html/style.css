@@ -53,7 +53,7 @@
 	height: 100%;
 	display: grid;
 	grid-template-columns: 20% 20% 20% 20% 20%;
-	grid-template-rows: 50% 50%;
+	grid-template-rows: 100% 100%;
 	margin: 0 auto;
 	
         
@@ -461,7 +461,7 @@
 /* Content Creation Page */
 
 .audio_box { 
-	border-radius:500px;
+	border-radius:50%;
 	background-color:rgba(0, 0, 0, 1);
 	grid-column-start: 1;
         grid-column-end: span 1;
@@ -478,7 +478,7 @@
 }
 
 .sharepoint_box { 
-	border-radius:500px;
+	border-radius:50%;
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
 	grid-column-start: 2;
         grid-column-end: span 1;
@@ -494,7 +494,7 @@
 }
 
 .e_learning_box { 
-	border-radius:500px;
+	border-radius:50%;
 	background-color:rgba(0, 0, 0, 1);
 	grid-column-start: 3;
         grid-column-end: span 1;
@@ -510,7 +510,7 @@
 }
 
 .virtual_tour_box { 
-	border-radius:500px;
+	border-radius:50%;
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
 	grid-column-start: 4;
         grid-column-end: span 1;
@@ -526,7 +526,7 @@
 }
 
 .script_box { 
-	border-radius:500px;
+	border-radius:50%;
 	background-color:rgba(0, 0, 0, 1);
 	grid-column-start: 5;
         grid-column-end: span 1;

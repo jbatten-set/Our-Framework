@@ -12,6 +12,14 @@
 		width: 100%;
 		height: auto;
         }
+  .container_pillars {
+            text-align: center;
+		width: 100%;
+		height: auto;
+	 	display: flex;
+	 	justify-content: center;
+	  	flex-direction: column;
+        }
 
         .main-title {
             font-size: 2.5em;
@@ -246,11 +254,11 @@
 
 
 .examples_box { 
-	width: 90%;
 	height: auto;
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20%;
+	grid-template-columns: 40% 20% 20% 20%;
 	grid-template-rows: 50% 50%;
+	margin: 0 auto;
 	
 }
 .video_production_box { 

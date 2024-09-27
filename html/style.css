@@ -215,7 +215,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	display: flex;
 	font-family:Inter;
 	text-align:center;
-	font-size:36px;
+	font-size:2vw;
 	letter-spacing:0;
 	margin-bottom: 50px;
 }
@@ -232,7 +232,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	height: auto;
 	font-family:Inter;
 	text-align:center;
-	font-size:36px;
+	font-size:3vw;
 	justify-content: center;
 	letter-spacing:0;
 }
@@ -242,7 +242,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	height: auto;
 	font-family:Inter;
 	text-align:center;
-	font-size:36px;
+	font-size:3vw;
 	justify-content: center;
 	letter-spacing:0;
 	margin: 0 auto;
@@ -253,7 +253,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	height: auto;
 	font-family:Inter;
 	text-align:center;
-	font-size:36px;
+	font-size:3vw;
 	grid-column-start: 3;
         grid-column-end: span 1;
  	grid-row-start: 2;
@@ -269,7 +269,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	font-family:Inter;
 	text-align:center;
 	justify-content: space-around; 
-	font-size:40px;
+	font-size:4vw;
 	letter-spacing:0;
 }
 .h1_text_black { 
@@ -280,7 +280,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	font-family:Inter;
 	text-align:center;
 	justify-content: space-around; 
-	font-size:40px;
+	font-size:4vw;
 	letter-spacing:0;
 }
 
@@ -505,7 +505,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
-	font-size:32px;
+	font-size:4vw;
 }
 
 .sharepoint_box { 
@@ -523,7 +523,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
-	font-size:32px;
+	font-size:4vw;
 }
 
 .e_learning_box { 
@@ -541,7 +541,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
-	font-size:32px;
+	font-size:4vw;
 }
 
 .virtual_tour_box { 
@@ -559,7 +559,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
-	font-size:32px;
+	font-size:4vw;
 }
 
 .script_box { 
@@ -577,7 +577,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
 	text-align:center;
-	font-size:32px;
+	font-size:4vw;
 }
 
 

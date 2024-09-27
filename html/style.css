@@ -319,7 +319,7 @@ a:hover, a:active { text-decoration: none; color:white }
 .video_production_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
-	font-size:36px;
+	font-size:3vw;
 }
 
 .photography_box { 
@@ -332,7 +332,7 @@ a:hover, a:active { text-decoration: none; color:white }
 .photography_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
-	font-size:24px;
+	font-size:2vw;
 }
 
 .digital_marketing_box { 
@@ -345,7 +345,7 @@ a:hover, a:active { text-decoration: none; color:white }
 .digital_marketing_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
-	font-size:24px;
+	font-size:2vw;
 }
 
 .graphic_design_box { 
@@ -358,7 +358,7 @@ a:hover, a:active { text-decoration: none; color:white }
 .graphic_design_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
-	font-size:24px;
+	font-size:2vw;
 }
 
 .content_creation_box { 
@@ -372,7 +372,7 @@ a:hover, a:active { text-decoration: none; color:white }
 .content_creation_box h1 {
 	color:rgba(255, 255, 255, 1);
 	font-family:Inter;
-	font-size:24px;
+	font-size:2vw;
 }
 
 .h1_video { 

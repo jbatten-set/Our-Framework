@@ -68,7 +68,7 @@ a:hover, a:active { text-decoration: none; color:white }
 	display: grid;
 	grid-template-columns: 20% 20% 20% 20% 20%;
 	grid-template-rows: 120% 120%;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	
         

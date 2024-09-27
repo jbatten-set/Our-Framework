@@ -285,7 +285,21 @@ a:hover, a:active { text-decoration: none; color:white }
 }
 
 /* Our Mission */
+.frame-red { 
+	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
+	width: 85%;
+	height: auto;
+	justify-content: space-around;
+	text-align: center;
+}
 
+.frame-black { 
+	background-color:rgba(0,0,0, 1);
+	width: 85%;
+	height: auto;
+	justify-content: space-around;
+	text-align: center;
+}
 .mission_frame { 
 	background-color:rgba(209.00000274181366, 32.00000189244747, 49.00000087916851, 1);
 	width: 85%;

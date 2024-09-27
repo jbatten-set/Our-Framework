@@ -42,12 +42,12 @@ a:hover, a:active { text-decoration: none; color:white }
         .sub-titles {
             display: flex;
             justify-content: space-around;
-            width: 100;
+            width: 100%;
             margin-bottom: 30px;
         }
 
         .sub-titles h2 {
-            font-size: 1.5em;
+            font-size: 22vh;
 	    color: black;
         }
 
@@ -58,9 +58,9 @@ a:hover, a:active { text-decoration: none; color:white }
         }
 
         .images img {
-          border-radius:500px;
-	width:232px;
-	height:232px;
+        border-radius:500px;
+	width:22vh;
+	height:22vh;
         }
 .main { 
 	background-color:rgba(255, 255, 255, 1);
